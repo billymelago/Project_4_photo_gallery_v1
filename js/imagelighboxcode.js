@@ -202,11 +202,11 @@
                                           },
                 onEnd:			function(){ arrowsOff(); activityIndicatorOff();
                                             closeButtonOff();
-                                            navigationOff()
+                                            navigationOff();
                                             captionOff();
-                                            overlayOff()},
+                                            overlayOff();},
                 onLoadStart: 	function(){ activityIndicatorOn(); 
-                                            captionOff()},
+                                            captionOff();},
                 onLoadEnd:	 	function(){ $( '.imagelightbox-arrow' ).css( 'display', 'block' ); 
                                             activityIndicatorOff(); 
                                             captionOn();}

@@ -78,6 +78,7 @@ header {
 }
 
 #splash-page ul {
+    margin-top: 10px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -279,6 +280,16 @@ figcaption::after {
 
 
 
+footer {
+    font-size: .8em;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
 
 /* EXPERIMENTING WITH OVERLAY IN jQUERY  */
 
@@ -334,6 +345,7 @@ figcaption::after {
     min-width: 350px;
     max-width: 900px;
     margin: auto;
+    
 }
 
 #inner img {
@@ -367,6 +379,16 @@ figcaption::after {
         font-size: 1.4em;
     }
     
+    #splash-page {
+        padding: 5px;
+    }
+    
+    
+    
+    #splash-page p {
+        font-size: .8em;
+    }
+    
     
     .filterinput {
         width: 220px;
@@ -397,10 +419,11 @@ figcaption::after {
     }
     
     
-    #thumbnail-photos figure {
+    figure
+    {
         width: auto;
-        margin: 0 10px 10px;
-        padding: 0;
+        margin: 10px 10px;
+        padding: 5px;
     }
     
     figcaption {
@@ -412,12 +435,83 @@ figcaption::after {
     box-shadow: 0 2px 12px -.125em rgba(100, 100, 100, .95);
 }
     
+    #inner {
+        padding-top: 6em; 
+    }
+    
+    #inner p {
+        font-size: 1em;
+        max-width: 80%;
+        
+    }
+    
     #video-gallery {
     margin: 0;
     padding: 0;
 }
     
+    #video-overlay {
+        padding-top: 5em;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5em;
+    }
+    
+    #video-wrapper {
+        width: 100%;
+    }
+    
 }
+
+
+
+@media screen and (max-width: 420px) {
+    
+    
+    
+    .item {
+        font-size: .8em;
+    }
+    
+    
+    
+    #thumbnail-photos {
+        width: 100%;
+        
+    }
+    
+    figure {
+        padding: 0;
+        width: 125px;
+        height: 125px;
+    }
+    
+    .video-fig {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    figure img {
+        height: 100%;
+    }
+    
+    #thumbnail-photos a {
+        width: 125px;
+        height: 125px;
+    }
+    
+    #inner p {
+        padding: 0 5px;
+        font-size: .8em;
+        max-width: 100%;
+            
+    }
+    
+}
+
+
+
 
 
 

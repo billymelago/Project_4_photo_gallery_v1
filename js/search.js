@@ -44,7 +44,7 @@ function listFilter(header, list) {
 }
 
 $(function () {
-    listFilter($("header"),$("#thumbnail-photos"));
+    listFilter($("header"),$("#main-wrapper"));
 });
 }(jQuery));
 
